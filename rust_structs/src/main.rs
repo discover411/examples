@@ -15,14 +15,14 @@ impl Point {
 	fn new(x: i32, y: i32) -> Point {
 		// "return" is optional in Rust. the last expression will be
 		// returned, as long as you don't put a ; at the end.
-		Point { x, y }
+		return Point { x, y };
 	}
 
 	// &self - this is a regular method. &self methods cannot modify the object
 	// that they are called on.
 	fn flip_x(&self) -> Point {
 		// We return a *new* Point here because we can't change self.
-		Point::new(-self.x, self.y)
+		return Point::new(-self.x, self.y);
 	}
 
 	// "&mut self" makes a method that can also change the struct's fields.

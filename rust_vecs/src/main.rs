@@ -37,7 +37,7 @@ fn main() {
 fn double(v: &Vec<i32>) -> Vec<i32> {
 	// this weird style of writing code is pretty common when dealing with iterators.
 	// we're just calling two methods on the iterator object, map and collect.
-	v.iter()        // iterate over v
-	.map(|x| x * 2) // ...multiply each value by 2
-	.collect()      // ...and collect the values into a new Vec.
+	return v.iter()  // iterate over v
+	.map(|x| x * 2)  // ...multiply each value by 2
+	.collect();      // ...and collect the values into a new Vec.
 }

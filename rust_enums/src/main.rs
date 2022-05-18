@@ -19,31 +19,31 @@ struct Animal {
 impl Animal {
 	// Constructors for each kind of animal.
 	fn new_cat(weight: f32, pattern: &str) -> Animal {
-		Animal {
+		return Animal {
 			weight,
 			kind: AnimalKind::Cat {
 				pattern: pattern.into()
 			}
-		}
+		};
 	}
 
 	fn new_dog(weight: f32, loudness: i32) -> Animal {
-		Animal {
+		return Animal {
 			weight,
 			kind: AnimalKind::Dog { loudness }
-		}
+		};
 	}
 
 	fn new_camel(weight: f32, num_humps: i32) -> Animal {
-		Animal {
+		return Animal {
 			weight,
 			kind: AnimalKind::Camel { num_humps }
-		}
+		};
 	}
 
 	// Methods that work on any kind of animal.
 	fn weight(&self) -> f32 {
-		self.weight
+		return self.weight;
 	}
 
 	fn speak(&self) {
