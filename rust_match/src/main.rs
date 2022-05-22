@@ -88,6 +88,6 @@ fn option_match(o: Option<i32>) {
 		}
 	}
 
-	// this way of unpacking an Option works, but it's a bit verbose, so there is another example
-	// that shows ways of using Options.
+	// this way of unpacking an Option works, but it's a bit verbose, so there will be another
+	// example that shows ways of using Options.
 }
