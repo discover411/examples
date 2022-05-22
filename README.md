@@ -13,6 +13,8 @@ The Rust examples are in folders. Just `cd` into the folder and `cargo run` to t
 	- How Rust `struct`s and `impl` work.
 - `rust_enums/`
 	- An example of `enum`s and `struct`s, and it also shows `match`.
+- `rust_match/`
+	- Some examples demonstrating `match`, which is like `switch` but better.
 
 <!--
 - `rust_trees/`
@@ -23,11 +25,11 @@ The Rust examples are in folders. Just `cd` into the folder and `cargo run` to t
 
 - `StringWeirdness.java`
 	- Two similar-looking strings, but they have different properties.
-
-<!--
 - `lexing_toy/`
 	- A very simple lexer for a language composed of just parentheses, identifiers, and base-10 int literals.
 	- `cargo run` gives you an interactive prompt to type code, and it shows the tokens for that code.
+
+<!--
 
 ### ASTs/Parsing
 
